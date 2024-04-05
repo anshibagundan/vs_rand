@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ランダム1v1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ランダム1v1</h1>
+    </header>
+    <main>
+        <form action="battle.php" method="post" class="form">
+            <div class="input">
+                <label for="name">名前1</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <strong id="vs">VS</strong>
+            <br>
+            <div class="input">
+                <label for="name2">名前2</label>
+                <input type="text" name="name2" id="name2">
+            </div>
+            <input type="submit" value="対戦する" id="submit">
+        </form>
+
+    <section id="buttle">
+        <div class = "user">
+            <p><?php echo $_POST['name']; ?></p>
+        </div>
+        <div class = "user">
+            <p><?php echo $_POST['name2']; ?></p>
+    </section>
+
+    </main>
+</body>
+</html>

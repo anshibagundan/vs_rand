@@ -1,0 +1,30 @@
+.form{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#vs{
+    width: 100%;
+    margin: auto 0;
+    align-items: center;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
