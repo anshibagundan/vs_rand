@@ -13,15 +13,14 @@
 }
 
 #vs{
-    width: 100%;
-    margin: auto 0;
-    align-items: center;
+    width: 200px;
 }
 
 #submit{
     width: 100%;
     padding: 10px;
     margin-left: 20px;
+    margin-right: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #4CAF50;
